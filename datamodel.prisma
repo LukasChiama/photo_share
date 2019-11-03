@@ -11,5 +11,6 @@ type User {
 type Post {
   id: ID! @Id
   body: String!
+  image: String!
   author: User @relation(link: INLINE)
 }
